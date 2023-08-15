@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const [data, setData] = useState([]); // Daten from the API
+  const [data, setData] = useState([]); // Data from the API
   const [sortConfig, setSortConfig] = useState({ key: 'id', direction: 'asc' }); // Sort configuration for the data
   const apiURL = 'https://my-json-server.typicode.com/typicode/demo/posts'; // URL for the API
 
